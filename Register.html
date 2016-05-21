@@ -71,6 +71,9 @@
             border-color: black;
             border-radius: 20px;
         }
+        #but{
+            padding-left: 17%;
+        }
     </style>
 </head>
 
@@ -91,39 +94,55 @@
             </aside>
 
             <div id="content">
-                <h1>ลงทะเบียบ | Register</h1>
+                <h1>ลงทะเบียน | Register</h1>
                 <fieldset>
                     <legend>
                         <h3>Register form</h3></legend>
                     <form method="POST">
-                        Username :
-                        <input type=text name="username" value="" pattern="[a-zA-Z0-9]{4,16}" autofocus required> (only charracter and number 4-16 length)
+                    <table>
+                    <tr>
+                        <td>Username :</td>
+                        <td><input type=text name="username" value="" pattern="[a-zA-Z0-9]{4,16}" autofocus required> (only charracter and number 4-16 length)</td>
+                    </tr>
+                    <tr> 
+                       <td> Password :</td>
+                       <td><input type="password" name="password" value="" pattern="{4,16}" required> (4-16 length)</td>
+                    </tr>
+                    <tr>
+                        <td>Confirm password :</td>
+                        <td><input type="password" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td> Name :</td>
+                        <td> <input type="text" name="custName" value="" pattern="[a-zA-Z]" required> (only charracter!)</td>
+                    </tr>
+                    <tr> 
+                        <td>Surname :</td>
+                        <td> <input type="text" name="custSurname" value="" pattern="[a-zA-z]" required> (only charracter!)</td>
+                    </tr>
+                    <tr> 
+                        <td>Address :</td>
+                        <td><textarea cols="50" rows="10" namw="custAddress" required></textarea></td>
+                    </tr>
+                    <tr> 
+                        <td>Tel. : </td>
+                        <td><input type="number" name="custTel" value="" required></td>
+                    </tr>
+                    <tr> 
+                        <td>Email : </td>
+                        <td><input type="email" name="custEmail" value="" required></td>
+                    </tr>
+                    <tr> 
+                        <td>Gender :</td>
+                        <td><input type="radio" name="sex" value="male" required>Male
+                        <input type="radio" name="sex" value="female" required>Female</td>
+                    </tr>
+                        </table>
                         <br>
-                        <br> Password :
-                        <input type="password" name="password" value="" pattern="{4,16}" required> (4-16 length)
-                        <br>
-                        <br> Confirm password :
-                        <input type="password" value="" required>
-                        <br>
-                        <br> Name :
-                        <input type="text" name="custName" value="" pattern="[a-zA-Z]" required> (only charracter!)
-                        <br>
-                        <br> Surname :
-                        <input type="text" name="custSurname" value="" pattern="[a-zA-z]" required> (only charracter!)
-                        <br>
-                        <br> Address :
-                        <br>
-                        <textarea cols="50" rows="10" namw="custAddress" required></textarea>
-                        <br>
-                        <br> Tel. : 
-                        <input type="number" name="custTel" value="" required>
-                        <br>
-                        <br> Email : 
-                        <input type="email" name="custEmail" value="" required>
-                        <br>
-                        <br> Gender :
-                        <input type="radio" name="sex" value="male" required>Male
-                        <input type="radio" name="sex" value="female" required>Female
+                        <div id="but">
+                        <input type=reset value="Clear"></input>
+                        <input type="submit" value="Submit"></input>
+                        </div>
                     </form>
                 </fieldset>
             </div>
