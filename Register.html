@@ -47,15 +47,17 @@
         }
         
         body {
-            background-color: rgb(48, 72, 96);
+            background-color: rgb(168,192,216);
             font-family: 'Kanit';
         }
         
         #aside-right {
-            background-color: rgb(168, 168, 168);
-            height: 1000px;
-            width: 300px;
+            background-color:rgb(168,168,168);
+            height:1000px;
+            width:18%;
             float: right;
+            border-radius: 20px;
+            margin-top: 10px;
         }
         
         #img {
@@ -90,7 +92,26 @@
                 </ul>
             </div>
             <aside id="aside-right">
-                right
+                <table>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="Text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="Password" name="pass"></td>
+                    </tr>
+                   </table>
+                   
+                <div id="butregis">
+                <input type="Submit" value="Submit">
+                <input type="reset" value="Clear">
+                </div>
+                <div id="regis">
+                <a href="#register">Register</a>
+                <a href="#forget">ForgetPassword</a>
+                <br>
+                </div>
             </aside>
 
             <div id="content">
