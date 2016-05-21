@@ -5,23 +5,32 @@
     <meta charset="utf-8">
     <title>Book Store Help Form </title>
     <style type="text/css">
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            border-radius: 20px;
+        }
         li {
-            display: inline;
-        }
-        #nav a {
-            color: white;
-        }
-        #nav {
             display: inline-block;
+            padding: 5px 10%;
+        }
+
+        li a {
+            display: block;
+            color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
-            background: #333;
-            line-height:30px;
-            height:50px;
-            width:100%;
-            border-radius: 50px;
+            margin-left: 18px;
+            
+        }
+
+        li:hover, a:hover {
+            background-color: lime;
+            width: auto;
         }
         body{
             background-color:rgb(48,72,96);
@@ -46,10 +55,7 @@
             border-radius: 20px;
             
         }
-        a:hover{text-decoration: none;color:lime}
-        a:hover {
-            background-color: #FF704D;
-        }
+        
     </style>
 </head>
 
@@ -58,14 +64,12 @@
         <div id="header">
             <img src="img/BBBanner.png" alt="Banner" width="1900 px" height="300px" id="img" />
             <div id="nav">
-                <nav>
                     <ul>
                         <li><a class="active" href="#home">Home</a></li>
                         <li><a href="#news">News</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#about">About</a></li>
                     </ul>
-                </nav>
             </div>
             <aside id="aside-right">
                 right
