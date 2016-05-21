@@ -46,6 +46,7 @@
         body{
             background-color:rgb(48,72,96);
             font-family: 'Kanit';
+            
         }
         #aside-right{
             background-color:rgb(168,168,168);
@@ -67,6 +68,30 @@
             border-radius: 20px;
             
         }
+        #Commend{
+            padding-left: 10%;
+        }
+        #fieldform{
+            padding-left: 25%;
+            margin-top: 5%;
+        }
+        #but{
+            padding-left: 18%;
+           
+        }
+        #but input{
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 3px;
+            margin-right: 20px;
+            background-color: lime;
+        }
+        #regis{
+            margin-left: 79px;
+        }
+        #butregis{
+            margin-left: 82px;
+        }
         
     </style>
 </head>
@@ -84,7 +109,26 @@
                     </ul>
             </div>
             <aside id="aside-right">
-                right
+                <table>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="Text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="Password" name="pass"></td>
+                    </tr>
+                   </table>
+                   
+                <div id="butregis">
+                <input type="Submit" value="Submit">
+                <input type="reset" value="Clear">
+                </div>
+                <div id="regis">
+                <a href="#register">Register</a>
+                <a href="#forget">ForgetPassword</a>
+                <br>
+                </div>
             </aside>
             <div id="content">
                 <div id="Commend">
@@ -92,11 +136,12 @@
                     <p>ต้องการสอบถามรายละเอียดของสินค้าเเละบริการของร้านBookbariesสามารถ ติดต่อได้ที่</p>
                     <h2>บริษัทBookbaries</h2>
                     <p>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี 126 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140 โทรศัพท์ 0-2427-0039, 0-2470-8000 โทรสาร 0-2427-8412</p>
+                    </div>
+                    
+                    <div id="fieldform">
                     <h3>กรุณากรอกเเบบฟอร์ม</h3>
                     <p>กรุณากรอกข้อมูลให้ถูกต้องและครบถ้วน</p>
-                </div>
-                
-                    <form accept=""id="form">
+                <form accept=""id="form">
                         <table>
                            
                        <tr>
@@ -126,8 +171,12 @@
                             <td><textarea name="comments" cols="50" rows="6"></textarea></td>
                         <tr>
                         </table>
+                        <div id="but">
+                            <br><input type="submit" value="Submit" >
+                            <input type="reset" value="Clear">
+                        </div>
                     </form>
-                
+                </div>
             </div>
         </div>
 
