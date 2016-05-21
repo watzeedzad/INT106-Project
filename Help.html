@@ -28,7 +28,7 @@
             width: 24.77%;
             margin-left: auto ;
             margin-right: auto ;
-            font-size: 24%;
+            font-size: 24px;
         }
 
         li a {
@@ -95,33 +95,39 @@
                     <h3>กรุณากรอกเเบบฟอร์ม</h3>
                     <p>กรุณากรอกข้อมูลให้ถูกต้องและครบถ้วน</p>
                 </div>
-                <div id="form">
-                    <form accept="">
-                        <p>ชื่อ:
-                            <input type="text" name="name" size="30" maxlength="60" />
-                        </p>
-
-                            <input type="email" name="email" size="30" maxlength="60" />
-                        </p>
-
-                        <p>เบอร์โทร:
-                            <input type="phone" name="phone" size="20" maxlength="15" />
-                        </p>
-
-                        <p>เรื่องที่ต้องการนําเสนอ:
-                            <select name="story">
+                
+                    <form accept=""id="form">
+                        <table>
+                           
+                       <tr>
+                        <td>ชื่อ:</td>
+                        <td><input type="text" name="name" size="30" maxlength="60" /></td>
+                        </tr>
+                        <tr>
+                        <td>อีเมล:</td>
+                        <td><input type="email" name="email" size="30" maxlength="60" /></td>
+                        </tr>
+                        <tr>
+                            <td>เบอร์โทร:</td>
+                            <td><input type="phone" name="phone" size="20" maxlength="15" /></td>
+                        </tr>
+                        <tr>
+                            <td>เรื่องที่ต้องการนําเสนอ:</td>
+                            <td><select name="story">
                                 <option value="null">กรุณาเลือก---</option>
                                 <option value="contact">ติดต่อร้านBookbaries</option>
                                 <option value="shoppingOnline">การซื้อหนังสือ ออนไลน์</option>
                                 <option value="recommend">เเนะนําติชมWebsite</option>
                                 <option value="advertise">ลงโฆษณาWebsite</option>
-                            </select>
-                        </p>
-                        <p>ความคิดเห็น:
-                            <textarea name="comments" cols="50" rows="6"></textarea>
-                        </p>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>ความคิดเห็น:</td>
+                            <td><textarea name="comments" cols="50" rows="6"></textarea></td>
+                        <tr>
+                        </table>
                     </form>
-                </div>
+                
             </div>
         </div>
 
