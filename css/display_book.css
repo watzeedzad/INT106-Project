@@ -79,6 +79,11 @@ body {
 }
 
 td {
+    text-align: center;
     padding-left: 7%;
     padding-bottom: 4%;
+}
+
+tr {
+    text-align: center;
 }
