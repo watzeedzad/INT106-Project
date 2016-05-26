@@ -4,98 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Kanit&subset=latin,thai' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/aboutus_comment.css">
     <title>Book Store Help Form </title>
-    <style type="text/css">
-        #nav{
-            width: 100%;
-            margin-left: auto ;
-            margin-right: auto ;
-            background-color: #111;
-            border-radius: 20px;
-        }
-        #nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        li {
-            float: left;
-            padding: 0.09999%;
-            width: 24.77%;
-            margin-left: auto ;
-            margin-right: auto ;
-            font-size: 24px;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            padding: 2% 30%;
-            text-decoration: none;
-            
-        }
-
-        li:hover, a:hover {
-            background-color: lime;
-            border-radius: 20px;
-        }
-        body{
-            background-color:rgb(168,192,216);
-            font-family: 'Kanit';
-            
-        }
-        #aside-right{
-            background-color:rgb(168,168,168);
-            height:1000px;
-            width:18%;
-            float: right;
-            border-radius: 20px;
-            margin-top: 10px;
-        }
-        #img{
-            position: relative;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            width: 100%;
-            height: 30%;
-            z-index: -1;
-            border: 20px;
-            border-style: line;
-            border-color: black;
-            border-radius: 20px;
-            
-        }
-        #Commend{
-            padding-left: 10%;
-        }
-        #fieldform{
-            padding-left: 25%;
-            margin-top: 5%;
-        }
-        #but{
-            padding-left: 18%;
-           
-        }
-        #but input{
-            font-size: 20px;
-            padding: 5px;
-            border-radius: 3px;
-            margin-right: 20px;
-            background-color: lime;
-        }
-        #regis{
-            margin-left: 79px;
-        }
-        #butregis{
-            margin-left: 82px;
-        }
-        
-    </style>
 </head>
 
 <body>
@@ -103,33 +13,37 @@
         <div id="header">
             <img src="img/BBBanner.png" alt="Banner" width="1900 px" height="300px" id="img" />
             <div id="nav">
-                    <ul>
-                        <li><a class="active" href="HomePage.html">Home</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
+                <ul>
+                    <li><a class="active#1" href="indexhtml">Home</a></li>
+                    <li><a class="active#2" href="display_book.html">All Book</a></li>
+                    <li><a class="active#3" href="contactus.html">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
             </div>
             <aside id="aside-right">
                 <table>
                     <tr>
                         <td>Username:</td>
-                        <td><input type="Text" name="name"></td>
+                        <td>
+                            <input type="Text" name="name">
+                        </td>
                     </tr>
                     <tr>
                         <td>Password:</td>
-                        <td><input type="Password" name="pass"></td>
+                        <td>
+                            <input type="Password" name="pass">
+                        </td>
                     </tr>
-                   </table>
-                   
+                </table>
+
                 <div id="butregis">
-                <input type="Submit" value="Submit">
-                <input type="reset" value="Clear">
+                    <input type="Submit" value="Submit">
+                    <input type="reset" value="Clear">
                 </div>
                 <div id="regis">
-                <a href="Register.html">Register</a>
-                <a href="#forget">ForgetPassword</a>
-                <br>
+                    <a href="Register.html">Register</a>
+                    <a href="#forget">ForgetPassword</a>
+                    <br>
                 </div>
             </aside>
             <div id="content">
@@ -138,43 +52,55 @@
                     <p>ต้องการสอบถามรายละเอียดของสินค้าเเละบริการของร้านBookbariesสามารถ ติดต่อได้ที่</p>
                     <h2>บริษัทBookbaries</h2>
                     <p>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี 126 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140 โทรศัพท์ 0-2427-0039, 0-2470-8000 โทรสาร 0-2427-8412</p>
-                    </div><hr>
-                    
-                    <div id="fieldform">
+                </div>
+                <hr>
+
+                <div id="fieldform">
                     <h3>กรุณากรอกเเบบฟอร์ม</h3>
                     <p>กรุณากรอกข้อมูลให้ถูกต้องและครบถ้วน</p>
-                <form accept=""id="form">
+                    <form accept="" id="form">
                         <table>
-                           
-                       <tr>
-                        <td>ชื่อ:</td>
-                        <td><input type="text" name="name" size="30" maxlength="60" /></td>
-                        </tr>
-                        <tr>
-                        <td>อีเมล:</td>
-                        <td><input type="email" name="email" size="30" maxlength="60" /></td>
-                        </tr>
-                        <tr>
-                            <td>เบอร์โทร:</td>
-                            <td><input type="phone" name="phone" size="20" maxlength="15" /></td>
-                        </tr>
-                        <tr>
-                            <td>เรื่องที่ต้องการนําเสนอ:</td>
-                            <td><select name="story">
-                                <option value="null">กรุณาเลือก---</option>
-                                <option value="contact">ติดต่อร้านBookbaries</option>
-                                <option value="shoppingOnline">การซื้อหนังสือ ออนไลน์</option>
-                                <option value="recommend">เเนะนําติชมWebsite</option>
-                                <option value="advertise">ลงโฆษณาWebsite</option>
-                                </select></td>
-                        </tr>
-                        <tr>
-                            <td>ความคิดเห็น:</td>
-                            <td><textarea name="comments" cols="50" rows="6"></textarea></td>
-                        <tr>
+
+                            <tr>
+                                <td>ชื่อ:</td>
+                                <td>
+                                    <input type="text" name="name" size="30" maxlength="60" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>อีเมล:</td>
+                                <td>
+                                    <input type="email" name="email" size="30" maxlength="60" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>เบอร์โทร:</td>
+                                <td>
+                                    <input type="phone" name="phone" size="20" maxlength="15" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>เรื่องที่ต้องการนําเสนอ:</td>
+                                <td>
+                                    <select name="story">
+                                        <option value="null">กรุณาเลือก---</option>
+                                        <option value="contact">ติดต่อร้านBookbaries</option>
+                                        <option value="shoppingOnline">การซื้อหนังสือ ออนไลน์</option>
+                                        <option value="recommend">เเนะนําติชมWebsite</option>
+                                        <option value="advertise">ลงโฆษณาWebsite</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ความคิดเห็น:</td>
+                                <td>
+                                    <textarea name="comments" cols="50" rows="6"></textarea>
+                                </td>
+                                <tr>
                         </table>
                         <div id="but">
-                            <br><input type="submit" value="Submit" >
+                            <br>
+                            <input type="submit" value="Submit">
                             <input type="reset" value="Clear">
                         </div>
                     </form>

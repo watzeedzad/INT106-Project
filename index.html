@@ -4,84 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Kanit&subset=latin,thai' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Book Store Help Form </title>
-    <style type="text/css">
-        #nav {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #111;
-            border-radius: 20px;
-        }
-        
-        #nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        li {
-            float: left;
-            padding: 0.09999%;
-            width: 24.77%;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 24px;
-        }
-        
-        li a {
-            display: block;
-            color: white;
-            padding: 2% 30%;
-            text-decoration: none;
-        }
-        
-        li:hover,
-        a:hover {
-            background-color: lime;
-            border-radius: 20px;
-        }
-        
-        body {
-            background-color: rgb(168, 192, 216);
-            font-family: 'Kanit';
-        }
-        
-        #aside-right {
-            background-color: rgb(168, 168, 168);
-            height: 1000px;
-            width: 18%;
-            float: right;
-            border-radius: 20px;
-            margin-top: 10px;
-        }
-        
-        #img {
-            position: relative;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            width: 100%;
-            height: 30%;
-            z-index: -1;
-            border: 20px;
-            border-style: line;
-            border-color: black;
-            border-radius: 20px;
-        }
-        
-        #but {
-            padding-left: 17%;
-        }
-        #tb{
-            padding-left: 5%;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -90,9 +14,9 @@
             <img src="img/BBBanner.png" alt="Banner" width="1900 px" height="300px" id="img" />
             <div id="nav">
                 <ul>
-                    <li><a class="active" href="HomePage.html">Home</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="active#1" href="indexhtml">Home</a></li>
+                    <li><a class="active#2" href="display_book.html">All Book</a></li>
+                    <li><a class="active#3" href="contactus.html">Contact</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
             </div>
@@ -124,7 +48,7 @@
             </aside>
 
             <div id="content">
-               <div style="height: 30px;"></div>
+                <div style="height: 30px;"></div>
                 <script type="text/javascript" src="js/jssor.slider.min.js"></script>
                 <!-- use jssor.slider.debug.js instead for debug -->
                 <script>
@@ -301,28 +225,28 @@
                     jssor_1_slider_init();
                 </script>
                 <div style="height: 30px;"></div>
-                
-                
+
+
             </div>
         </div>
 
     </div>
     <div id="book">
-        <h1>Recommended Book</h1>
-    <table id="tb">
-        <tr>
-            <td><img src="img\Book Picture\__300_6.jpg"  height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\_--_300_39.jpg" height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\_--300_3_6.jpg" height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\_--300_50.jpg" height="100%" width="100%"></td>
-        </tr>
-        <tr>
-            <td><img src="img\Book Picture\book_468.jpg" height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\book_469.jpg" height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\file_3_13.png" height="100%" width="100%"></td>
-            <td><img src="img\Book Picture\file_240_37.jpg" height="100%" width="100%"  ></td>
-        </tr>
-    </table>
+        <h1> Recommended Book</h1>
+        <table id="tb">
+            <tr>
+                <td><img src="img\Book Picture\__300_6.jpg" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\_--_300_39.jpg" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\_--300_3_6.jpg" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\_--300_50.jpg" height="100%" width="100%"></td>
+            </tr>
+            <tr>
+                <td><img src="img\Book Picture\book_468.jpg" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\book_469.jpg" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\file_3_13.png" height="100%" width="100%"></td>
+                <td><img src="img\Book Picture\file_240_37.jpg" height="100%" width="100%"></td>
+            </tr>
+        </table>
     </div>
 
 </body>

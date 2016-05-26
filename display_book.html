@@ -4,87 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Kanit&subset=latin,thai' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/display_book.css">
     <title>Book Store Help Form </title>
-    <style type="text/css">
-        #nav{
-            width: 100%;
-            margin-left: auto ;
-            margin-right: auto ;
-            background-color: #111;
-            border-radius: 20px;
-        }
-        #nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        li {
-            float: left;
-            padding: 0.09999%;
-            width: 24.77%;
-            margin-left: auto ;
-            margin-right: auto ;
-            font-size: 24px;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            padding: 2% 30%;
-            text-decoration: none;
-            
-        }
-
-        li:hover, a:hover {
-            background-color: lime;
-            border-radius: 20px;
-        }
-        body{
-            background-color:rgb(48,72,96);
-            font-family: 'Kanit';
-            
-        }
-        #aside-right{
-            background-color:rgb(168,168,168);
-            height:2900px;
-            width:300px;
-            float: right;
-        }
-        #img{
-            position: relative;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            width: 100%;
-            height: 30%;
-            z-index: -1;
-            border: 20px;
-            border-style: line;
-            border-color: black;
-            border-radius: 20px;
-            
-        }
-       
-        
-        #regis{
-            margin-left: 79px;
-        }
-        #butregis{
-            margin-left: 82px;
-        }
-        #table{
-            margin-top: 5%;
-        }
-         td{
-            padding-left: 7%;
-            padding-bottom: 4%;
-        }
-        
-    </style>
 </head>
 
 <body>
@@ -92,109 +13,181 @@
         <div id="header">
             <img src="img/BBBanner.png" alt="Banner" width="1900 px" height="300px" id="img" />
             <div id="nav">
-                    <ul>
-                        <li><a class="active" href="HomePage.html">Home</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
+                <ul>
+                    <li><a class="active#1" href="indexhtml">Home</a></li>
+                    <li><a class="active#2" href="display_book.html">All Book</a></li>
+                    <li><a class="active#3" href="contactus.html">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
             </div>
             <aside id="aside-right">
                 <form action="###">
-                <table>
-                    <tr>
-                        <td>Username:</td>
-                        <td><input type="Text" name="name"></td>
-                    </tr>
-                    <tr>
-                        <td>Password:</td>
-                        <td><input type="Password" name="pass"></td>
-                    </tr>
-                   </table>
-                   
-                <div id="butregis">
-                <input type="Submit" value="Submit">
-                <input type="reset" value="Clear">
-                </div>
-                <div id="regis">
-                <a href="Register.html">Register</a>
-                <a href="#forget">ForgetPassword</a>
-                <br>
+                    <table>
+                        <tr>
+                            <td>Username:</td>
+                            <td>
+                                <input type="Text" name="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td>
+                                <input type="Password" name="pass">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div id="butregis">
+                        <input type="Submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </div>
+                    <div id="regis">
+                        <a href="Register.html">Register</a>
+                        <a href="#forget">ForgetPassword</a>
+                        <br>
                 </form>
                 </div>
             </aside>
             <div id="table">
-            <table>
-                <tr>
-                    <td><img src="img\Book Picture\__300.png"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\__300_6.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\_--_300_16.png"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                </tr>
-                 <tr>
-                    <td><img src="img\Book Picture\_--_300_39.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\_--300_3_6.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\_--300_50.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                </tr>
-                <tr>
-                    <td><img src="img\Book Picture\203_--_300.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\book_468.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\book_469.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                </tr>
-                 <tr>
-                    <td><img src="img\Book Picture\file_3_13.png"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\file_240_37.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\file_362_68.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                </tr>
-                <tr>
-                    <td><img src="img\Book Picture\file_362_104.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\japan_salaryman.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\mx-3640n_20150914_095429_002.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                </tr>
-                <tr>
-                    <td><img src="img\Book Picture\mx-3640n_20150914_095429_002_-_copy.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                    <td><img src="img\Book Picture\the-science-of-interstellar-300.jpg"><br>
-                    <center>name</center><br>
-                    <center>price<center></td>
-                 
-                </tr>
+                <table>
+                    <tr>
+                        <td><img src="img\Book Picture\__300.png">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\__300_6.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\_--_300_16.png">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\Book Picture\_--_300_39.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\_--300_3_6.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\_--300_50.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\Book Picture\203_--_300.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\book_468.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\book_469.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\Book Picture\file_3_13.png">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\file_240_37.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\file_362_68.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\Book Picture\file_362_104.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\japan_salaryman.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\mx-3640n_20150914_095429_002.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img\Book Picture\mx-3640n_20150914_095429_002_-_copy.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+                        <td><img src="img\Book Picture\the-science-of-interstellar-300.jpg">
+                            <br>
+                            <center>name</center>
+                            <br>
+                            <center>price
+                                <center>
+                        </td>
+
+                    </tr>
             </div>
 
 
             </table>
-            </div>
         </div>
+    </div>
 
     </div>
 
