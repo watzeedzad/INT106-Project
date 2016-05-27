@@ -102,11 +102,12 @@
      margin-top: 1%;
      background-color: rgb(240, 216, 216);
      width: 78%;
-     height: 850px;
+     height: 100%;
      float: left;
      padding: 1%;
      border-radius: 20px;
      position: static;
+     margin-bottom: 2%;
  }
  
  #map {
