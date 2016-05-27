@@ -51,7 +51,10 @@ body {
     border-radius: 20px;
     margin-top: 10px;
 }
-
+#login{
+    padding-top: 10px;
+    margin-left: 15px;
+}
 #img {
     position: relative;
     top: 0px;
