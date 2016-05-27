@@ -51,10 +51,12 @@
      border-radius: 20px;
      margin-top: 10px;
  }
- #login{
-    padding-top: 10px;
-    margin-left: 15px;
-}
+ 
+ #login {
+     padding-top: 10px;
+     margin-left: 15px;
+ }
+ 
  #img {
      position: relative;
      top: 0px;
@@ -112,4 +114,14 @@
  #map {
      margin-top: 1%;
      border: 5px solid #000000;
+ }
+ 
+ td {
+     text-align: center;
+     padding-left: 7%;
+     padding-bottom: 4%;
+ }
+ 
+ tr {
+     text-align: center;
  }
